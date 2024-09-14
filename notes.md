@@ -118,6 +118,20 @@ end program program_name
 
 - 每行可以编写132个字符
 - 叹号“！”后面的文本都是注释，没有(编程)意义
+
+```
+! !ARGUMENTS: 
+！声明
+
+! !LOCAL VARIABLES:
+!在subroutine中声明局部变量
+
+! !USES: 
+！在subroutine中使用module
+```
+
+
+
 - 代码不为区分大小写
 - 两行代码可以用符号“&”进行连接
 - 变量取名需要以字母开头，可以表现为字母和数字混合，且长度不超过32
